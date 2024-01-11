@@ -4,3 +4,26 @@
     margin: 0 auto;
     padding: 2rem;
 }
+
+.trollface-svg {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.title {
+    font-size: 1.6em;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 65px;
+    padding: 0px 20px;
+    background: linear-gradient(to right, #672280, #a626d3);
+    color: white;
+}
+
+.nav__left {
+    display: flex;
+}
