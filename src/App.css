@@ -6,12 +6,12 @@
 }
 
 .trollface-svg {
-    width: 40px;
+    width: 30px;
     margin-right: 5px;
 }
 
 .title {
-    font-size: 1.6em;
+    font-size: 1.25rem;
 }
 
 .nav {
@@ -26,4 +26,9 @@
 
 .nav__left {
     display: flex;
+}
+
+.nav__right {
+    font-family: Inter;
+    font-size: 0.75rem;
 }
