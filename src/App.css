@@ -32,3 +32,35 @@
     font-family: Inter;
     font-size: 0.75rem;
 }
+
+.form {
+    font-family: Karla;
+    margin: 28px 37px;
+}
+
+.form__inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__button {
+    font-weight: 700;
+    font-size: 0.9rem;
+    background: linear-gradient(to right, #672280, #a626d3);
+    color: white;
+    border: transparent;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100%;
+}
+
+input {
+    min-width: 222px;
+    color: #6B7280;
+    font-family: Karla;
+    font-size: 1rem;
+    border: solid 1px gray;
+    border-radius: 8px;
+    height: 30px;
+}
