@@ -33,7 +33,7 @@
     font-size: 0.75rem;
 }
 
-.form {
+main {
     font-family: Karla;
     margin: 28px 37px;
 }
@@ -53,14 +53,21 @@
     margin-top: 20px;
     height: 40px;
     width: 100%;
+    cursor: pointer;
 }
 
 input {
     min-width: 222px;
-    color: #6B7280;
+    height: 30px;
     font-family: Karla;
     font-size: 1rem;
+    color: #6b7280;
     border: solid 1px gray;
     border-radius: 8px;
-    height: 30px;
+    text-indent: 5px;
+}
+
+.meme-img {
+    margin-top: 15px;
+    max-width: 100%;
 }
